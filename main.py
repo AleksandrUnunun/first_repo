@@ -2,4 +2,7 @@ import random
 
 
 def rand_list():
-    pass
+    return [random.randint(0, 50) for i in range(30)]
+
+
+print(rand_list())
